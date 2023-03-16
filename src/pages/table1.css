@@ -1,0 +1,88 @@
+table {
+    border-collapse: collapse;
+    width: 70%;
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #333;
+  }
+  
+  th,
+  td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    font-weight:normal;
+   
+  }
+  
+   th {
+    background-color: 	#5A5A5A;
+    font-weight: bold;
+    color: white;
+    font-size: larger;
+  } 
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #fff;
+  } 
+  
+.products{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-input {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 8px;
+    width: 300px;
+    /* max-width: 400px; */
+    margin-bottom: 20px;
+  }
+  
+  .search-input:focus {
+    outline: none;
+    border-color: rgb(36, 160, 202);
+    box-shadow: 0 0 3px lightblue;
+  }
+
+  .date-input {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  /* padding: 8px;
+  margin-right: 10px; */
+}
+
+.date-input:focus {
+  outline: none;
+  border-color: lightblue;
+  box-shadow: 0 0 3px lightblue;
+} */
+
+.filter-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.active-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+
+  .pagination-wrapper {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+
+
